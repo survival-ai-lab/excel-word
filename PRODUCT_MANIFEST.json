@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "title": "AutoDocTemplates",
+  "tagline": "Предоставление готовых шаблонов с автоматизацией расчетов",
+  "pricing": "Launch price: $9 one-time. No subscription or paid API is required for the delivered files.",
+  "license_terms": "License for one buyer's personal or internal business use. Redistribution, resale of the unchanged package, or claiming authorship of the original package is not permitted unless separately agreed.",
+  "quality_score": 98.2,
+  "quality_passed": true,
+  "files": [
+    "assets/offer-description.json",
+    "assets/usage-guide.pdf",
+    "pricing/pricing.csv",
+    "templates/excel/budget-calculator.xlsx",
+    "templates/excel/sales-report.xlsx",
+    "templates/word/presentation-template.docx",
+    "templates/word/report-template.docx"
+  ],
+  "generated_by": "Survival AI"
+}
