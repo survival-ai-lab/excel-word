@@ -1,0 +1,74 @@
+{
+  "experiment_id": 1,
+  "created_at": "2026-08-27T11:48:41.257003+00:00",
+  "hypothesis": {
+    "name": "Шаблоны для Excel/Word",
+    "customer": "Бизнес-пользователи",
+    "problem": "Сложно создавать профессиональные таблицы и документы без шаблонов",
+    "offer": "Предоставление готовых шаблонов с автоматизацией расчетов",
+    "first_revenue_path": "Продажа через Gumroad/Printful (без рекламы)",
+    "validation_queries": [
+      "Какие шаблоны востребованы?",
+      "Сколько стоит стандартный шаблон?"
+    ],
+    "estimated_days_to_first_revenue": 7,
+    "risks": [
+      "Низкий спрос",
+      "Конкуренция"
+    ],
+    "score": 85
+  },
+  "plan": {
+    "project_name": "AutoDocTemplates",
+    "goal": "Создать и продать 3-5 автоматизированных шаблонов для Excel/Word с минимальными затратами",
+    "files": [
+      {
+        "path": "templates/excel/budget-calculator.xlsx",
+        "purpose": "Шаблон для автоматизации расчетов бюджета"
+      },
+      {
+        "path": "templates/excel/sales-report.xlsx",
+        "purpose": "Шаблон отчета по продажам с формулами"
+      },
+      {
+        "path": "templates/word/report-template.docx",
+        "purpose": "Шаблон делового документа с форматированием"
+      },
+      {
+        "path": "templates/word/presentation-template.docx",
+        "purpose": "Шаблон презентации с автоматическим стилем"
+      },
+      {
+        "path": "pricing/pricing.csv",
+        "purpose": "Таблица цен для шаблонов"
+      },
+      {
+        "path": "assets/usage-guide.pdf",
+        "purpose": "Инструкция по использованию шаблонов"
+      },
+      {
+        "path": "assets/offer-description.json",
+        "purpose": "Описание продуктов для Gumroad"
+      }
+    ],
+    "sales_asset_files": [
+      "pricing/pricing.csv",
+      "assets/offer-description.json"
+    ],
+    "validation_action": {
+      "title": "Тестовый запуск с 3 шаблонами",
+      "description": "Загрузить 3 шаблона на Gumroad с ценами $5-$15 и отслеживать конверсию"
+    },
+    "success_metric": "Продажа хотя бы одного шаблона за 7 дней"
+  },
+  "generated_files": [
+    "templates/excel/budget-calculator.xlsx",
+    "templates/excel/sales-report.xlsx",
+    "templates/word/report-template.docx",
+    "templates/word/presentation-template.docx",
+    "pricing/pricing.csv",
+    "assets/usage-guide.pdf",
+    "assets/offer-description.json"
+  ],
+  "note": "Внешние публикации и сообщения выполняются только после подтверждения владельца."
+}
